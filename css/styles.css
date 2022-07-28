@@ -12,3 +12,7 @@ body {
 .cover img {
     height: 80vh;
 }
+
+.img-sm-fluid {
+    width: 100%;
+}

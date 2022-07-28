@@ -67,7 +67,7 @@
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item cover active">
-                        <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                        <img src="images/cover/cover-1.png" class="d-block w-100 opacity-75" alt="...">
                         <div
                             class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
                             <h1 class="fw-bold">Get Started Digital Learning</h1>
@@ -79,7 +79,7 @@
                         </div>
                     </div>
                     <div class="carousel-item cover">
-                        <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+                        <img src="images/cover/cover-2.jpg" class="d-block w-100 opacity-75" alt="...">
                         <div
                             class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
                             <h1 class="fw-bold">Get Started Digital Learning</h1>
@@ -91,7 +91,7 @@
                         </div>
                     </div>
                     <div class="carousel-item cover">
-                        <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                        <img src="images/cover/cover-3.jpg" class="d-block w-100 opacity-75" alt="...">
                         <div
                             class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
                             <h1 class="fw-bold">Get Started Digital Learning</h1>
@@ -150,7 +150,7 @@
                 <!-- course 1 -->
 
                 <div class="col-md-12 col-lg-6 mb-3">
-                    <div class="d-flex border rounded rounded-3 gx-1">
+                    <div class="d-flex  border rounded rounded-3 gx-1">
                         <div>
                             <img src="images/course/course-1.png" alt="">
                         </div>
@@ -323,7 +323,7 @@
 
         <!-- questions section start  -->
 
-        <section style="width: 870px;" class="container">
+        <section class="container">
 
             <!-- question header start  -->
 
@@ -349,18 +349,16 @@
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                             data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                             aria-controls="panelsStayOpen-collapseOne">
-                            Accordion Item #1
+                            <strong>What is the differences between Flexbox and Grid?</strong>
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
                         aria-labelledby="panelsStayOpen-headingOne">
                         <div class="accordion-body">
-                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the
-                            collapse plugin adds the appropriate classes that we use to style each element. These
-                            classes control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or overriding our default variables.
-                            It's also worth noting that just about any HTML can go within the
-                            <code>.accordion-body</code>, though the transition does limit overflow.
+                            <strong>Grid is made for two-dimensional layout while Flexbox is for one.</strong> This
+                            means Flexbox can
+                            work on either row or columns at a time, but Grids can work on both. Flexbox, gives you more
+                            flexibility while working on either element (row or column).
                         </div>
                     </div>
                 </div>
@@ -369,18 +367,17 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseTwo">
-                            Accordion Item #2
+                            <strong>What is the differences between Bootstrap and Tailwind?</strong>
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
                         aria-labelledby="panelsStayOpen-headingTwo">
                         <div class="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
-                            the collapse plugin adds the appropriate classes that we use to style each element. These
-                            classes control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or overriding our default variables.
-                            It's also worth noting that just about any HTML can go within the
-                            <code>.accordion-body</code>, though the transition does limit overflow.
+                            The main difference between TailwindCSS and Bootstrap is that <strong>Tailwind CSS is not a
+                                UI kit.</strong>
+                            Unlike UI kits such as Bootstrap, Bulma, and Foundation, Tailwind CSS doesn't have a default
+                            theme or built-in UI components. Instead, it comes with predesigned widgets you can use to
+                            build your site from scratch.
                         </div>
                     </div>
                 </div>
@@ -389,18 +386,41 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseThree">
-                            Accordion Item #3
+                            <strong>What is the css box model?</strong>
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
                         aria-labelledby="panelsStayOpen-headingThree">
                         <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                            collapse plugin adds the appropriate classes that we use to style each element. These
-                            classes control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or overriding our default variables.
-                            It's also worth noting that just about any HTML can go within the
-                            <code>.accordion-body</code>, though the transition does limit overflow.
+                            In CSS, the term "box model" is used when talking about design and layout.
+                            The CSS box model is essentially a box that wraps around every HTML element. It consists of:
+                            margins, borders, padding, and the actual content. The image below illustrates the box
+                            model: <br> <br>
+                            <strong>Content</strong> - The content of the box, where text and images appear <br>
+                            <strong>Padding</strong> - Clears an area around the content. The padding is transparent
+                            <br>
+                            <strong>Border</strong> - A border that goes around the padding and content <br>
+                            <strong>Margin</strong> - Clears an area outside the border. The margin is transparent
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFour">
+                            <strong>What is Semantic tags?</strong>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingFour">
+                        <div class="accordion-body">
+                            The HTML semantics refers to the <strong>tags that provide meaning to an HTML page rather
+                                than just
+                                presentation.</strong> It makes HTML more comprehensible by better defining the
+                            different sections
+                            and layout of web pages.
                         </div>
                     </div>
                 </div>
@@ -414,7 +434,7 @@
 
         <!-- companies section start  -->
 
-        <section class="container mt-5">
+        <section class="container mt-5 d-none d-lg-block">
             <div class="text-center">
                 <h1 class="fw-bold">Trusted by over 800+ companies</h1>
             </div>
@@ -443,33 +463,36 @@
 
         <!-- companies section end -->
 
-        <!-- footer start  -->
-
-        <footer style="height:300px ;"
-            class="mt-5 bg-dark d-flex flex-column justify-content-center align-items-center">
-
-            <div class="text-white text-center">
-                <h1 class="fw-bold">Web Development Course</h1>
-                <p>Office 41, Zawaya Buildin, Ghala Muscat,
-                    <br>
-                    Sultanate of Oman
-                    <br>
-                    Privacy Ploicy | Terms of use
-                </p>
-                <div class="mt-3">
-                    <a href=""><i class="fa-brands fa-facebook bg-gradient rounded-circle p-3 me-3"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter bg-gradient rounded-circle p-3 me-3"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram bg-gradient rounded-circle p-3 me-3"></i></a>
-                    <a href=""><i class="fa-brands fa-google-plus-g bg-gradient rounded-circle p-3 me-3"></i></a>
-                </div>
-            </div>
-
-        </footer>
-
-        <!-- footer end -->
-
-
     </main>
+
+    <!-- footer start  -->
+
+    <footer style="height:300px ;" class="mt-5 bg-dark d-flex flex-column justify-content-center align-items-center">
+
+        <div class="text-white text-center">
+            <h2 class="fw-bold">Web Development Course</h2>
+            <p>Office 41, Zawaya Buildin, Ghala Muscat,
+                <br>
+                Sultanate of Oman
+                <br>
+                Privacy Ploicy | Terms of use
+            </p>
+            <div class="mt-3">
+                <a href="https://www.facebook.com/"><i
+                        class="fa-brands fa-facebook bg-gradient rounded-circle p-3 me-3"></i></a>
+                <a href="https://twitter.com/?lang=en"><i
+                        class="fa-brands fa-twitter bg-gradient rounded-circle p-3 me-3"></i></a>
+                <a href="https://www.instagram.com/"><i
+                        class="fa-brands fa-instagram bg-gradient rounded-circle p-3 me-3"></i></a>
+                <a href="https://www.google.com/"><i
+                        class="fa-brands fa-google-plus-g bg-gradient rounded-circle p-3 me-3"></i></a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- footer end -->
+
 
 
 
